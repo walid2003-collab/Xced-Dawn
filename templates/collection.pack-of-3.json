@@ -1,1 +1,83 @@
-{"sections":{"banner":{"type":"main-collection-banner","disabled":true,"settings":{"show_collection_description":false,"show_collection_image":false,"color_scheme":"scheme-1"}},"rich_text_i8tX3r":{"type":"rich-text","blocks":{"heading_XhPgGt":{"type":"heading","settings":{"heading":"HOW IT WORKS","heading_size":"h1"}},"text_gV7L9h":{"type":"text","settings":{"text":"<p>Build your pack of 3 by adding at least 3 items from the selection below to your bag and proceed to checkout, you'll find that an automatic discount is applied making your pack 1500 EGP.<br\/><\/p>"}}},"block_order":["heading_XhPgGt","text_gV7L9h"],"custom_css":["p {font-size: 19px;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":16,"padding_bottom":16}},"product-grid":{"type":"main-collection-product-grid","custom_css":[".collection-list .product .badge--sold-out {display: none;}"],"settings":{"products_per_page":16,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":true,"quick_add":"none","enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","rich_text_i8tX3r","product-grid"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "rich_text_i8tX3r": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XhPgGt": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW IT WORKS",
+            "heading_size": "h1"
+          }
+        },
+        "text_gV7L9h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Build your pack of 3 by adding at least 3 items from the selection below to your bag and proceed to checkout, you'll find that an automatic discount is applied making your pack 1500 EGP.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XhPgGt",
+        "text_gV7L9h"
+      ],
+      "custom_css": [
+        "p {font-size: 19px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".collection-list .product .badge--sold-out {display: none;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_i8tX3r",
+    "product-grid"
+  ]
+}

@@ -1,1 +1,182 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"judge_me_reviews_preview_badge_GgKJ7V":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":true}},"custom_liquid_PCFkwW":{"type":"custom_liquid","settings":{"custom_liquid":"<!-- Collapsible-style button for the drawer -->\n<button\n  class=\"collapsible-trigger\"\n  data-product-description=\"{{ product.description | escape }}\"\n  onclick=\"openDescriptionDrawer()\"\n>\n  <span class=\"collapsible-label\">DESCRIPTION<\/span>\n  <span class=\"collapsible-arrow\">›<\/span>\n<\/button>\n\n<style>\n  .collapsible-trigger {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 100%;\n    background: none;\n    border: none;\n    cursor: pointer;\n    padding: 1rem 0;\n    font-size: 14px;\n    font-weight: 600;\n    color: #000;\n    border-bottom: 1px solid #eee; \n  }\n  .collapsible-trigger:hover {\n    color: #333;\n  }\n  .collapsible-label {\n    text-transform: uppercase;\n  }\n  .collapsible-arrow {\n    font-size: 18px;\n  }\n<\/style>\n\n<!-- Delivery & Returns Trigger Button -->\n<button class=\"collapsible-trigger\" onclick=\"openDeliveryReturnsDrawer()\">\n  <span class=\"collapsible-label\">Delivery & Returns<\/span>\n  <span class=\"collapsible-arrow\">›<\/span>\n<\/button>\n\n{% if product.metafields.custom.size_chart %}\n  \n\n<!-- Button to open the Size Chart Drawer -->\n  <button\n    class=\"collapsible-trigger\"\n    data-size-chart=\"{{ product.metafields.custom.size_chart | img_url: 'master' }}\"\n    onclick=\"openSizeChartDrawer()\"\n  >\n    <span class=\"collapsible-label\">SIZE GUIDE<\/span>\n    <span class=\"collapsible-arrow\">›<\/span>\n  <\/button>\n{% endif %}"}},"custom_liquid_LjXn3X":{"type":"custom_liquid","settings":{"custom_liquid":"{% assign today = 'now' | date: \"%d %b\" %}\n{% assign dispatched = 'now' | date: \"%s\" | plus: 86400 | date: \"%d %b\" %}\n{% assign delivered_start = 'now' | date: \"%s\" | plus: 172800 | date: \"%a\" %}\n{% assign delivered_end = 'now' | date: \"%s\" | plus: 345600 | date: \"%a\" %}\n\n<div style=\"max-width: 700px; margin: auto; font-family: sans-serif;\">\n  <h2 style=\"text-align: center; font-weight: 700;\">ORDER TIMELINE<\/h2>\n  <div style=\"\n    display: flex;\n    justify-content: space-between;\n    gap: 30px;\n    background-color: #f7f7f7;\n    padding-top: 20px;\n    padding-bottom: 20px;\n    border-radius: 12px;\n    box-shadow: 0 0 5px rgba(0,0,0,0.1);\n    flex-wrap: wrap;\n  \">\n    \n    <div style=\"flex: 1; text-align: center;\">\n      <div style=\"font-weight: 800; font-size: 12px;\">ORDERED<\/div>\n      <div style=\"color: #555; font-size: 13px; font-weight: 600;\">TODAY<\/div>\n    <\/div>\n\n    <div style=\"flex: 1; text-align: center;\">\n      <div style=\"font-weight: 800; font-size: 12px;\">SHIPPED<\/div>\n      <div style=\"color: #555; font-size: 13px; font-weight: 600;\">TOMORROW<\/div>\n    <\/div>\n\n    <div style=\"flex: 1; text-align: center;\">\n      <div style=\"font-weight: 800; font-size: 12px;\">DELIVERED<\/div>\n      <div style=\"color: #555; font-size: 13px; font-weight: 600; text-transform: uppercase;\">\n        {{ delivered_start }} - {{ delivered_end }}\n      <\/div>\n    <\/div>\n\n  <\/div>\n<\/div>"}},"collapsible_tab_FL7tFA":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Description","icon":"clipboard","content":"<p>{{ product.description }}<\/p>","page":""}},"collapsible_tab_AaFhDR":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Shipping Policy","icon":"lightning_bolt","content":"<p>Orders usually take 3-5 business days. Be sure to answer your phone as the courier will be contacting you before delivery.<\/p>","page":""}},"collapsible_tab_L4DjKw":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Refunds and Exchanges","icon":"return","content":"<p>Refunds or Exchanges are allowed within 14 days from receiving your order as long as the items are unused and with their tags still attached.<\/p>","page":""}},"description":{"type":"description","disabled":true,"settings":{}},"share":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["vendor","title","judge_me_reviews_preview_badge_GgKJ7V","price","variant_picker","quantity_selector","buy_buttons","custom_liquid_PCFkwW","custom_liquid_LjXn3X","collapsible_tab_FL7tFA","collapsible_tab_AaFhDR","collapsible_tab_L4DjKw","description","share"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"17350490261a18a47f":{"type":"apps","blocks":{"judge_me_reviews_review_widget_HJJH3H":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{"review_data":"sample_data","max_width":1200}}},"block_order":["judge_me_reviews_review_widget_HJJH3H"],"settings":{"include_margins":true}}},"order":["main","related-products","17350490261a18a47f"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "judge_me_reviews_preview_badge_GgKJ7V": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_PCFkwW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Collapsible-style button for the drawer -->\n<button\n  class=\"collapsible-trigger\"\n  data-product-description=\"{{ product.description | escape }}\"\n  onclick=\"openDescriptionDrawer()\"\n>\n  <span class=\"collapsible-label\">DESCRIPTION</span>\n  <span class=\"collapsible-arrow\">›</span>\n</button>\n\n<style>\n  .collapsible-trigger {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 100%;\n    background: none;\n    border: none;\n    cursor: pointer;\n    padding: 1rem 0;\n    font-size: 14px;\n    font-weight: 600;\n    color: #000;\n    border-bottom: 1px solid #eee; \n  }\n  .collapsible-trigger:hover {\n    color: #333;\n  }\n  .collapsible-label {\n    text-transform: uppercase;\n  }\n  .collapsible-arrow {\n    font-size: 18px;\n  }\n</style>\n\n<!-- Delivery & Returns Trigger Button -->\n<button class=\"collapsible-trigger\" onclick=\"openDeliveryReturnsDrawer()\">\n  <span class=\"collapsible-label\">Delivery & Returns</span>\n  <span class=\"collapsible-arrow\">›</span>\n</button>\n\n{% if product.metafields.custom.size_chart %}\n  \n\n<!-- Button to open the Size Chart Drawer -->\n  <button\n    class=\"collapsible-trigger\"\n    data-size-chart=\"{{ product.metafields.custom.size_chart | img_url: 'master' }}\"\n    onclick=\"openSizeChartDrawer()\"\n  >\n    <span class=\"collapsible-label\">SIZE GUIDE</span>\n    <span class=\"collapsible-arrow\">›</span>\n  </button>\n{% endif %}"
+          }
+        },
+        "custom_liquid_LjXn3X": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign today = 'now' | date: \"%d %b\" %}\n{% assign dispatched = 'now' | date: \"%s\" | plus: 86400 | date: \"%d %b\" %}\n{% assign delivered_start = 'now' | date: \"%s\" | plus: 172800 | date: \"%a\" %}\n{% assign delivered_end = 'now' | date: \"%s\" | plus: 345600 | date: \"%a\" %}\n\n<div style=\"max-width: 700px; margin: auto; font-family: sans-serif;\">\n  <h2 style=\"text-align: center; font-weight: 700;\">ORDER TIMELINE</h2>\n  <div style=\"\n    display: flex;\n    justify-content: space-between;\n    gap: 30px;\n    background-color: #f7f7f7;\n    padding-top: 20px;\n    padding-bottom: 20px;\n    border-radius: 12px;\n    box-shadow: 0 0 5px rgba(0,0,0,0.1);\n    flex-wrap: wrap;\n  \">\n    \n    <div style=\"flex: 1; text-align: center;\">\n      <div style=\"font-weight: 800; font-size: 12px;\">ORDERED</div>\n      <div style=\"color: #555; font-size: 13px; font-weight: 600;\">TODAY</div>\n    </div>\n\n    <div style=\"flex: 1; text-align: center;\">\n      <div style=\"font-weight: 800; font-size: 12px;\">SHIPPED</div>\n      <div style=\"color: #555; font-size: 13px; font-weight: 600;\">TOMORROW</div>\n    </div>\n\n    <div style=\"flex: 1; text-align: center;\">\n      <div style=\"font-weight: 800; font-size: 12px;\">DELIVERED</div>\n      <div style=\"color: #555; font-size: 13px; font-weight: 600; text-transform: uppercase;\">\n        {{ delivered_start }} - {{ delivered_end }}\n      </div>\n    </div>\n\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_FL7tFA": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Description",
+            "icon": "clipboard",
+            "content": "<p>{{ product.description }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AaFhDR": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping Policy",
+            "icon": "lightning_bolt",
+            "content": "<p>Orders usually take 3-5 business days. Be sure to answer your phone as the courier will be contacting you before delivery.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_L4DjKw": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Refunds and Exchanges",
+            "icon": "return",
+            "content": "<p>Refunds or Exchanges are allowed within 14 days from receiving your order as long as the items are unused and with their tags still attached.</p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "judge_me_reviews_preview_badge_GgKJ7V",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "custom_liquid_PCFkwW",
+        "custom_liquid_LjXn3X",
+        "collapsible_tab_FL7tFA",
+        "collapsible_tab_AaFhDR",
+        "collapsible_tab_L4DjKw",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "17350490261a18a47f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_HJJH3H": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_HJJH3H"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "17350490261a18a47f"
+  ]
+}

@@ -1,1 +1,279 @@
-{"sections":{"image_banner_8cr6hA":{"type":"image-banner","blocks":{"heading_mQiDg7":{"type":"heading","settings":{"heading":"ESSENTIALS","heading_size":"h1"}},"text_hbnbeh":{"type":"text","settings":{"text":"For lounging, shopping, dining, everything.","text_style":"caption-with-letter-spacing"}},"buttons_7e9AVT":{"type":"buttons","settings":{"button_label_1":"SHOP MEN","button_link_1":"shopify:\/\/collections\/men","button_style_secondary_1":true,"button_label_2":"SHOP WOMEN","button_link_2":"shopify:\/\/collections\/women","button_style_secondary_2":true}}},"block_order":["heading_mQiDg7","text_hbnbeh","buttons_7e9AVT"],"custom_css":["h2 {font-size: 38px;}","p {font-size: 10px; color: #fff;}","a {font-size: 14px;}",".banner__content {position: relative; display: flex; align-items: flex-end; justify-content: left; height: 100%; padding-bottom: 0px; line-height: 1px;}","@media screen and (min-width: 750px) {.banner, slideshow-component {display: none; }}"],"settings":{"image":"shopify:\/\/shop_images\/Senza_titolo_3000_x_3000_px_1.svg","image_2":"shopify:\/\/shop_images\/Senza_titolo_3000_x_3000_px_1.svg","image_overlay_opacity":20,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"scheme-4","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"image_banner_nTWzNw":{"type":"image-banner","blocks":{"heading_VifPYY":{"type":"heading","settings":{"heading":"SHOP PACKS","heading_size":"h1"}},"text_dVBQLf":{"type":"text","settings":{"text":"Shop packs and save!","text_style":"caption-with-letter-spacing"}},"buttons_wrUdky":{"type":"buttons","settings":{"button_label_1":"SHOP MEN","button_link_1":"shopify:\/\/collections\/packs","button_style_secondary_1":false,"button_label_2":"","button_link_2":"shopify:\/\/collections\/women","button_style_secondary_2":false}}},"block_order":["heading_VifPYY","text_dVBQLf","buttons_wrUdky"],"custom_css":["@media screen and (max-width: 750px) {.banner, slideshow-component {display: none; }}"],"settings":{"image":"shopify:\/\/shop_images\/Testo_del_paragrafo_1.svg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"scheme-4","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"featured_collection":{"type":"featured-collection","custom_css":["a {font-size: 18px;}"],"settings":{"title":"LATEST DROPS","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"outline","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":true,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}},"image_banner_Bza97Q":{"type":"image-banner","blocks":{"text_CCzDb4":{"type":"text","settings":{"text":"Heavy Sets and more available","text_style":"caption-with-letter-spacing"}},"heading_kHfjFw":{"type":"heading","settings":{"heading":"SHOP OUR CO-ORDS","heading_size":"h1"}},"buttons_rQfzCH":{"type":"buttons","settings":{"button_label_1":"SHOP NOW","button_link_1":"shopify:\/\/collections\/co-ords","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["text_CCzDb4","heading_kHfjFw","buttons_rQfzCH"],"settings":{"image":"shopify:\/\/shop_images\/Website_Banner_Xced_3.svg","image_2":"shopify:\/\/shop_images\/UP_To_4.svg","image_overlay_opacity":0,"image_height":"small","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":true}},"collection_list_TYXVqE":{"type":"collection-list","blocks":{"featured_collection_aXbfrw":{"type":"featured_collection","settings":{"collection":"tops"}},"featured_collection_t3ztet":{"type":"featured_collection","settings":{"collection":"womens-tops"}},"featured_collection_aUDrDc":{"type":"featured_collection","settings":{"collection":"sweatsets"}},"featured_collection_4CgikQ":{"type":"featured_collection","settings":{"collection":"bottoms"}},"featured_collection_aKW3dg":{"type":"featured_collection","settings":{"collection":"womens-bottoms"}}},"block_order":["featured_collection_aXbfrw","featured_collection_t3ztet","featured_collection_aUDrDc","featured_collection_4CgikQ","featured_collection_aKW3dg"],"settings":{"title":"SHOP BY CATEGORY","heading_size":"h1","image_ratio":"portrait","columns_desktop":5,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"17350493476727a028":{"type":"apps","blocks":{"judge_me_reviews_featured_carousel_mGEVEi":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{"maxwidth":1080}}},"block_order":["judge_me_reviews_featured_carousel_mGEVEi"],"settings":{"include_margins":true}}},"order":["image_banner_8cr6hA","image_banner_nTWzNw","featured_collection","image_banner_Bza97Q","collection_list_TYXVqE","17350493476727a028"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_8cr6hA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_mQiDg7": {
+          "type": "heading",
+          "settings": {
+            "heading": "ESSENTIALS",
+            "heading_size": "h1"
+          }
+        },
+        "text_hbnbeh": {
+          "type": "text",
+          "settings": {
+            "text": "For lounging, shopping, dining, everything.",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "buttons_7e9AVT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP MEN",
+            "button_link_1": "shopify://collections/men",
+            "button_style_secondary_1": true,
+            "button_label_2": "SHOP WOMEN",
+            "button_link_2": "shopify://collections/women",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_mQiDg7",
+        "text_hbnbeh",
+        "buttons_7e9AVT"
+      ],
+      "custom_css": [
+        "h2 {font-size: 38px;}",
+        "p {font-size: 10px; color: #fff;}",
+        "a {font-size: 14px;}",
+        ".banner__content {position: relative; display: flex; align-items: flex-end; justify-content: left; height: 100%; padding-bottom: 0px; line-height: 1px;}",
+        "@media screen and (min-width: 750px) {.banner, slideshow-component {display: none; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Senza_titolo_3000_x_3000_px_1.svg",
+        "image_2": "shopify://shop_images/Senza_titolo_3000_x_3000_px_1.svg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_nTWzNw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VifPYY": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOP PACKS",
+            "heading_size": "h1"
+          }
+        },
+        "text_dVBQLf": {
+          "type": "text",
+          "settings": {
+            "text": "Shop packs and save!",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "buttons_wrUdky": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP MEN",
+            "button_link_1": "shopify://collections/packs",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify://collections/women",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VifPYY",
+        "text_dVBQLf",
+        "buttons_wrUdky"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.banner, slideshow-component {display: none; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Testo_del_paragrafo_1.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        "a {font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "LATEST DROPS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_Bza97Q": {
+      "type": "image-banner",
+      "blocks": {
+        "text_CCzDb4": {
+          "type": "text",
+          "settings": {
+            "text": "Heavy Sets and more available",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_kHfjFw": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOP OUR CO-ORDS",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_rQfzCH": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections/co-ords",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_CCzDb4",
+        "heading_kHfjFw",
+        "buttons_rQfzCH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_Banner_Xced_3.svg",
+        "image_2": "shopify://shop_images/UP_To_4.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "collection_list_TYXVqE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_aXbfrw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "featured_collection_t3ztet": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "womens-tops"
+          }
+        },
+        "featured_collection_aUDrDc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sweatsets"
+          }
+        },
+        "featured_collection_4CgikQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "featured_collection_aKW3dg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "womens-bottoms"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_aXbfrw",
+        "featured_collection_t3ztet",
+        "featured_collection_aUDrDc",
+        "featured_collection_4CgikQ",
+        "featured_collection_aKW3dg"
+      ],
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17350493476727a028": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_mGEVEi": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_mGEVEi"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner_8cr6hA",
+    "image_banner_nTWzNw",
+    "featured_collection",
+    "image_banner_Bza97Q",
+    "collection_list_TYXVqE",
+    "17350493476727a028"
+  ]
+}
