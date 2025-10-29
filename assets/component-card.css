@@ -593,3 +593,21 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+/* Promotional Badge Styling */
+.card__badge--promo {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.3rem;
+  z-index: 1;
+}
+
+.badge--promo {
+  background-color: #ff0000 !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  padding: 0.5rem 1.3rem 0.6rem 1.3rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  font-weight: 500;
+}
