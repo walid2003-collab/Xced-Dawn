@@ -121,6 +121,29 @@ Code is subject to be updated with every theme updates, for more info contact vi
               </span>
             {%- endif -%}
           </div>
+          {%- comment -%} Promotional Badge for B1G1, B2G1 and B3G1 collections {%- endcomment -%}
+          {%- liquid
+            assign promo_badge_text = ''
+            for collection in card_product.collections
+              if collection.handle == 'b1g1'
+                assign promo_badge_text = 'Buy 1 Get 1'
+                break
+              elsif collection.handle == 'b2g1'
+                assign promo_badge_text = 'Buy 2 Get 1'
+                break
+              elsif collection.handle == 'b3g1'
+                assign promo_badge_text = 'Buy 3 Get 1'
+                break
+              endif
+            endfor
+          -%}
+          {%- if promo_badge_text != '' -%}
+            <div class="card__badge--promo">
+              <span class="badge badge--promo">
+                {{- promo_badge_text -}}
+              </span>
+            </div>
+          {%- endif -%}
         </div>
       </div>
       <div class="card__content">
@@ -312,6 +335,29 @@ Code is subject to be updated with every theme updates, for more info contact vi
             </span>
           {%- endif -%}
         </div>
+        {%- comment -%} Promotional Badge for B1G1, B2G1 and B3G1 collections {%- endcomment -%}
+        {%- liquid
+          assign promo_badge_text = ''
+          for collection in card_product.collections
+            if collection.handle == 'b1g1'
+              assign promo_badge_text = 'Buy 1 Get 1'
+              break
+            elsif collection.handle == 'b2g1'
+              assign promo_badge_text = 'Buy 2 Get 1'
+              break
+            elsif collection.handle == 'b3g1'
+              assign promo_badge_text = 'Buy 3 Get 1'
+              break
+            endif
+          endfor
+        -%}
+        {%- if promo_badge_text != '' -%}
+          <div class="card__badge--promo">
+            <span class="badge badge--promo">
+              {{- promo_badge_text -}}
+            </span>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
