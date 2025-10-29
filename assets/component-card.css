@@ -602,6 +602,11 @@
   z-index: 1;
 }
 
+/* Product Page Promotional Badge */
+.product__badge--promo {
+  display: inline-block;
+}
+
 .badge--promo {
   background-color: #ff0000 !important;
   color: #ffffff !important;
